@@ -1,0 +1,26 @@
+{
+  "color": {
+    "canvas": {
+      "value": "#FF0000",
+      "type": "color"
+    }
+  },
+  "semantic": {
+    "color": {
+      "bg": {
+        "canvas": {
+          "value": "#FF0000",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "colors": {
+    "red": {
+      "100": {
+        "value": "#FF0000",
+        "type": "color"
+      }
+    }
+  }
+}
