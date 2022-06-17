@@ -1,7 +1,7 @@
 {
   "color": {
     "canvas": {
-      "value": "#00FF00",
+      "value": "#0017ff",
       "type": "color"
     }
   },
@@ -9,7 +9,7 @@
     "color": {
       "bg": {
         "canvas": {
-          "value": "#00FF00",
+          "value": "#0017ff",
           "type": "color"
         }
       }
@@ -18,7 +18,7 @@
   "colors": {
     "red": {
       "100": {
-        "value": "#00FF00",
+        "value": "#0017ff",
         "type": "color"
       }
     }
