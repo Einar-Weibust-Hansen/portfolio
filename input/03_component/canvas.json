@@ -1,0 +1,10 @@
+{
+  "color": {
+    "canvas": {
+      "bg": {
+        "value": "{semantic.color.canvas.bg}",
+        "type": "color"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "semantic": {
+    "color": {
+      "logo": {
+        "default": {
+          "fg": {
+            "value": "{colors.orange.500}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

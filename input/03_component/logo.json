@@ -1,0 +1,8 @@
+{
+  "color": {
+    "fg": {
+      "value": "{semantic.color.logo.default.fg}",
+      "type": "color"
+    }
+  }
+}

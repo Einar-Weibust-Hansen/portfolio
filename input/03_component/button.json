@@ -1,0 +1,26 @@
+{
+  "border-radius": {
+    "button": {
+      "value": "{semantic.border-radius.button}",
+      "type": "borderRadius"
+    }
+  },
+  "color": {
+    "button": {
+      "bg": {
+        "value": "{semantic.color.button.default.bg}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{semantic.color.button.default.fg}",
+        "type": "color"
+      }
+    }
+  },
+  "font-family": {
+    "button": {
+      "value": "{semantic.font-family.button}",
+      "type": "fontFamilies"
+    }
+  }
+}

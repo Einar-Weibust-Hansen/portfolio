@@ -1,0 +1,78 @@
+[
+  {
+    "id": "c8cec1feffa3a835ec4f4604abf35fa9675a245f",
+    "name": "Brand A",
+    "selectedTokenSets": {
+      "01_core": "enabled",
+      "02_semantic": "enabled",
+      "03_component/button": "enabled",
+      "03_component/canvas": "enabled",
+      "03_component/logo": "enabled",
+      "04_theme/A": "enabled",
+      "04_theme/A-Dark": "disabled",
+      "04_theme/B": "disabled",
+      "04_theme/B-Dark": "disabled",
+      "05_brand/A": "enabled",
+      "05_brand/A-Dark": "disabled",
+      "05_brand/B": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "e70a1a747c5fbbbec99e3914f8f5f982de92ccf3",
+    "name": "Brand A Dark",
+    "selectedTokenSets": {
+      "01_core": "enabled",
+      "02_semantic": "enabled",
+      "03_component/button": "enabled",
+      "03_component/canvas": "enabled",
+      "03_component/logo": "enabled",
+      "04_theme/A": "enabled",
+      "04_theme/A-Dark": "enabled",
+      "04_theme/B": "disabled",
+      "04_theme/B-Dark": "disabled",
+      "05_brand/A": "enabled",
+      "05_brand/A-Dark": "enabled",
+      "05_brand/B": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "6ab9cff4bfdcbae4f6a9490c9efbb25ea32b0e86",
+    "name": "Brand B",
+    "selectedTokenSets": {
+      "01_core": "enabled",
+      "02_semantic": "enabled",
+      "03_component/button": "enabled",
+      "03_component/canvas": "enabled",
+      "03_component/logo": "enabled",
+      "04_theme/A": "disabled",
+      "04_theme/A-Dark": "disabled",
+      "04_theme/B": "enabled",
+      "04_theme/B-Dark": "disabled",
+      "05_brand/A": "disabled",
+      "05_brand/A-Dark": "disabled",
+      "05_brand/B": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "55c41b976d1b4cf4571076f612722947ecc24eaa",
+    "name": "Brand B Dark",
+    "selectedTokenSets": {
+      "01_core": "enabled",
+      "02_semantic": "enabled",
+      "03_component/button": "enabled",
+      "03_component/canvas": "enabled",
+      "03_component/logo": "enabled",
+      "04_theme/A": "disabled",
+      "04_theme/A-Dark": "disabled",
+      "04_theme/B": "enabled",
+      "04_theme/B-Dark": "enabled",
+      "05_brand/A": "disabled",
+      "05_brand/A-Dark": "disabled",
+      "05_brand/B": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

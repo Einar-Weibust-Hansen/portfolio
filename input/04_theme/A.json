@@ -1,0 +1,16 @@
+{
+  "semantic": {
+    "border-radius": {
+      "button": {
+        "value": "9999px",
+        "type": "borderRadius"
+      }
+    },
+    "font-family": {
+      "button": {
+        "value": "{National 2}",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}
