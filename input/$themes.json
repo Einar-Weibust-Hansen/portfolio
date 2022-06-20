@@ -8,13 +8,13 @@
       "03_component/button": "enabled",
       "03_component/canvas": "enabled",
       "03_component/logo": "enabled",
-      "04_theme/A": "enabled",
-      "04_theme/A-Dark": "disabled",
-      "04_theme/B": "disabled",
-      "04_theme/B-Dark": "disabled",
-      "05_brand/A": "enabled",
-      "05_brand/A-Dark": "disabled",
-      "05_brand/B": "disabled"
+      "04_theme/Playfull-Dark": "disabled",
+      "04_theme/Playfull": "enabled",
+      "04_theme/Serious-Dark": "disabled",
+      "04_theme/Serious": "disabled",
+      "05_brand/Budstikka": "enabled",
+      "05_brand/Budstikka-Dark": "disabled",
+      "05_brand/AO": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -27,13 +27,13 @@
       "03_component/button": "enabled",
       "03_component/canvas": "enabled",
       "03_component/logo": "enabled",
-      "04_theme/A": "enabled",
-      "04_theme/A-Dark": "enabled",
-      "04_theme/B": "disabled",
-      "04_theme/B-Dark": "disabled",
-      "05_brand/A": "enabled",
-      "05_brand/A-Dark": "enabled",
-      "05_brand/B": "disabled"
+      "04_theme/Playfull-Dark": "enabled",
+      "04_theme/Playfull": "enabled",
+      "04_theme/Serious-Dark": "disabled",
+      "04_theme/Serious": "disabled",
+      "05_brand/Budstikka": "enabled",
+      "05_brand/Budstikka-Dark": "enabled",
+      "05_brand/AO": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -46,13 +46,13 @@
       "03_component/button": "enabled",
       "03_component/canvas": "enabled",
       "03_component/logo": "enabled",
-      "04_theme/A": "disabled",
-      "04_theme/A-Dark": "disabled",
-      "04_theme/B": "enabled",
-      "04_theme/B-Dark": "disabled",
-      "05_brand/A": "disabled",
-      "05_brand/A-Dark": "disabled",
-      "05_brand/B": "enabled"
+      "04_theme/Playfull-Dark": "disabled",
+      "04_theme/Playfull": "disabled",
+      "04_theme/Serious-Dark": "disabled",
+      "04_theme/Serious": "enabled",
+      "05_brand/Budstikka": "disabled",
+      "05_brand/Budstikka-Dark": "disabled",
+      "05_brand/AO": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -65,13 +65,13 @@
       "03_component/button": "enabled",
       "03_component/canvas": "enabled",
       "03_component/logo": "enabled",
-      "04_theme/A": "disabled",
-      "04_theme/A-Dark": "disabled",
-      "04_theme/B": "enabled",
-      "04_theme/B-Dark": "enabled",
-      "05_brand/A": "disabled",
-      "05_brand/A-Dark": "disabled",
-      "05_brand/B": "enabled"
+      "04_theme/Playfull-Dark": "disabled",
+      "04_theme/Playfull": "disabled",
+      "04_theme/Serious-Dark": "enabled",
+      "04_theme/Serious": "enabled",
+      "05_brand/Budstikka": "disabled",
+      "05_brand/Budstikka-Dark": "disabled",
+      "05_brand/AO": "enabled"
     },
     "$figmaStyleReferences": {}
   }
