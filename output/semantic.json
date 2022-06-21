@@ -1,0 +1,50 @@
+{
+  "semantic": {
+    "color": {
+      "canvas": {
+        "bg": {
+          "value": "#fafafa",
+          "type": "color"
+        }
+      },
+      "button": {
+        "default": {
+          "bg": {
+            "value": "#292827",
+            "type": "color"
+          },
+          "fg": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        }
+      },
+      "logo": {
+        "default": {
+          "fg": {
+            "value": "#292827",
+            "type": "color"
+          }
+        }
+      },
+      "brand": {
+        "default": {
+          "value": "#292827",
+          "type": "color"
+        }
+      }
+    },
+    "border-radius": {
+      "button": {
+        "value": "4px",
+        "type": "borderRadius"
+      }
+    },
+    "font-family": {
+      "button": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}

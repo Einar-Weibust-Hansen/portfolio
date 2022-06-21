@@ -1,0 +1,26 @@
+{
+  "border-radius": {
+    "button": {
+      "value": "4px",
+      "type": "borderRadius"
+    }
+  },
+  "color": {
+    "button": {
+      "bg": {
+        "value": "#292827",
+        "type": "color"
+      },
+      "text": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    }
+  },
+  "font-family": {
+    "button": {
+      "value": "Inter",
+      "type": "fontFamilies"
+    }
+  }
+}
