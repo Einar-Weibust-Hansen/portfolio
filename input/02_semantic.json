@@ -42,7 +42,7 @@
     },
     "font-family": {
       "button": {
-        "value": "{Inter}",
+        "value": "{font-family.inter}",
         "type": "fontFamilies"
       }
     }

@@ -8,7 +8,7 @@
     },
     "font-family": {
       "button": {
-        "value": "{Open Sans}",
+        "value": "{font-family.open-sans}",
         "type": "fontFamilies"
       }
     }

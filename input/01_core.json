@@ -69,16 +69,18 @@
       }
     }
   },
-  "Inter": {
-    "value": "Inter",
-    "type": "fontFamilies"
-  },
-  "National 2": {
-    "value": "National 2",
-    "type": "fontFamilies"
-  },
-  "Open Sans": {
-    "value": "Open Sans",
-    "type": "fontFamilies"
+  "font-family": {
+    "inter": {
+      "value": "Inter",
+      "type": "fontFamilies"
+    },
+    "national2": {
+      "value": "National 2",
+      "type": "fontFamilies"
+    },
+    "open-sans": {
+      "value": "Open Sans",
+      "type": "fontFamilies"
+    }
   }
 }
