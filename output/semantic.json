@@ -3,18 +3,18 @@
     "color": {
       "canvas": {
         "bg": {
-          "value": "{colors.gray.800}",
+          "value": "#fafafa",
           "type": "color"
         }
       },
       "button": {
         "default": {
           "bg": {
-            "value": "{colors.gray.100}",
+            "value": "#292827",
             "type": "color"
           },
           "fg": {
-            "value": "{colors.gray.900}",
+            "value": "#ffffff",
             "type": "color"
           }
         }
@@ -22,14 +22,14 @@
       "logo": {
         "default": {
           "fg": {
-            "value": "{semantic.color.brand.default}",
+            "value": "#292827",
             "type": "color"
           }
         }
       },
       "brand": {
         "default": {
-          "value": "{colors.gray.100}",
+          "value": "#292827",
           "type": "color"
         }
       }
@@ -42,7 +42,7 @@
     },
     "font-family": {
       "button": {
-        "value": "{font-family.inter}",
+        "value": "Inter",
         "type": "fontFamilies"
       }
     }

@@ -8,7 +8,7 @@
     },
     "font-family": {
       "button": {
-        "value": "{National 2}",
+        "value": "{font-family.national2}",
         "type": "fontFamilies"
       }
     }
