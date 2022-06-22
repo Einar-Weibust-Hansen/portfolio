@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "d200d9ce7057ab5082d6c46b5fa94f3ca8bc3423",
+    "name": "Brand A - Darkmode",
+    "selectedTokenSets": {
+      "01_core": "enabled",
+      "02_semantic": "enabled",
+      "03_component/button": "enabled",
+      "03_component/canvas": "enabled",
+      "03_component/logo": "enabled",
+      "04_theme/Playfull-Dark": "enabled",
+      "04_theme/Playfull": "enabled",
+      "04_theme/Serious-Dark": "disabled",
+      "04_theme/Serious": "disabled",
+      "05_brand/A-Dark": "disabled",
+      "05_brand/A": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
