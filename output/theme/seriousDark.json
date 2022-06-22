@@ -1,0 +1,32 @@
+{
+  "semantic": {
+    "color": {
+      "canvas": {
+        "bg": {
+          "value": "#292827",
+          "type": "color"
+        }
+      },
+      "button": {
+        "default": {
+          "bg": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "fg": {
+            "value": "#292827",
+            "type": "color"
+          }
+        }
+      },
+      "logo": {
+        "default": {
+          "fg": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

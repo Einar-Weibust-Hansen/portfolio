@@ -4,13 +4,16 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 17 Jun 2022 13:24:47 GMT
+// Generated on Wed, 22 Jun 2022 12:10:53 GMT
 
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
-ColorCanvas
+ColorButtonBg,
+ColorButtonText,
+ColorCanvasBg,
+ColorFg
 };
 
 @interface StyleDictionaryColor : NSObject
