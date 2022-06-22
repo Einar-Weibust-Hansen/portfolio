@@ -1,6 +1,6 @@
 # Basic Style Dictionary
 
-token-transformer input output/core.json 01_core 
+token-transformer input output1/core.json 01_core 
 token-transformer input output/semantic.json 01_core,02_semantic 01_core
 token-transformer input output/component/button.json 01_core,02_semantic,03_component/button 01_core,02_semantic
 token-transformer input output/component/canvas.json 01_core,02_semantic,03_component/canvas 01_core,02_semantic
