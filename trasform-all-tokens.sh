@@ -3,27 +3,69 @@
 #input folder
 INPUTFOLDER="input"
 
-#output folder
-OUTPUTFOLDER="output"
-
 #core input file
-CORE="01_core"
+INPUT_CORE="01_core"
 
 #semantic input file
-SEMANTIC="02_semantic"
+INPUT_SEMANTIC="02_semantic"
+
+#components input folder
+INPUT_COMPONENT="03_component"
+
+#Theme input folder
+INPUT_THEME="04_theme"
+
+#Brand input folder
+INPUT_BRAND="05_brand"
+
+
 
 #All compoents avalible
 COMPONENTS=("button" "canvas" "logo")
 
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/core.json $CORE
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/semantic.json $CORE,$SEMANTIC $CORE
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/component/${COMPONENTS[0]}.json $CORE,$SEMANTIC,03_component/${COMPONENTS[0]} $CORE,$SEMANTIC
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/component/${COMPONENTS[1]}.json $CORE,$SEMANTIC,03_component/${COMPONENTS[1]} $CORE,$SEMANTIC
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/component/${COMPONENTS[2]}.json $CORE,$SEMANTIC,03_component/${COMPONENTS[2]} $CORE,$SEMANTIC
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/theme/playfull.json $CORE,04_theme/playfull $CORE
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/theme/playfullDark.json $CORE,04_theme/Playfull-Dark $CORE
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/theme/seriousDark.json $CORE,04_theme/Serious-Dark $CORE
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/theme/playfull.json $CORE,04_theme/Playfull $CORE
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/theme/serious.json $CORE,04_theme/Serious $CORE
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/brand/a.json $CORE,05_brand/A $CORE
-npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/brand/aDark.json $CORE,05_brand/A-Dark $CORE
+#All themes avalible
+THEMES=("playfull" "playfullDark" "serious" "seriousDark")
+
+#All brands avalible
+BRANDS=("a" "aDark")
+
+
+
+#Output folder themes
+OUTPUT_THEME="themes"
+
+#Output folder brands
+OUTPUT_BRANDS="brands"
+
+#output folder
+OUTPUTFOLDER="output"
+
+#outputcompoent folder
+OUTPUTCOMPONENT="component"
+
+
+
+
+
+
+#Create Core and Semantic files
+npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/core.json $INPUT_CORE
+npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/semantic.json $INPUT_CORE,$INPUT_SEMANTIC $INPUT_CORE
+
+
+#Loop that runs through components
+for i in ${!COMPONENTS[@]}; do
+  npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/$OUTPUTCOMPONENT/${COMPONENTS[$i]}.json $INPUT_CORE,$INPUT_SEMANTIC,$INPUT_COMPONENT/${COMPONENTS[$i]} $INPUT_CORE,$INPUT_SEMANTIC
+done
+
+#Loop that runs through themes
+for i in ${!THEMES[@]}; do
+  npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/$OUTPUT_THEME/${THEMES[$i]}.json $INPUT_CORE,$INPUT_THEME/${THEMES[$i]} $INPUT_CORE
+done
+
+#Loop that runs through brands
+for i in ${!BRANDS[@]}; do
+  npx token-transformer $INPUTFOLDER $OUTPUTFOLDER/$OUTPUT_BRANDS/${BRANDS[$i]}.json $INPUT_CORE,$INPUT_BRAND/${BRANDS[$i]} $INPUT_CORE
+done
+
+
