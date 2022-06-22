@@ -1,7 +1,7 @@
 
 
 // Do not edit directly
-// Generated on Fri, 17 Jun 2022 13:24:47 GMT
+// Generated on Wed, 22 Jun 2022 12:10:53 GMT
 
 
 
@@ -12,5 +12,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
 object StyleDictionaryColor {
-  val colorCanvas = Color(0xff0017ff)
+  val colorButtonBg = Color(0xff292827)
+  val colorButtonText = Color(0xffffffff)
+  val colorCanvasBg = Color(0xfffafafa)
+  val colorFg = Color(0xff292827)
 }
