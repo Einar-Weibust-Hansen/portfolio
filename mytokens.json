@@ -1,0 +1,326 @@
+{
+  "01_core": {
+    "colors": {
+      "red": {
+        "200": {
+          "value": "#f1c3c3",
+          "type": "color"
+        }
+      },
+      "green": {
+        "500": {
+          "value": "#54ff73",
+          "type": "color"
+        },
+        "800": {
+          "value": "#277636",
+          "type": "color"
+        }
+      },
+      "gray": {
+        "50": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "100": {
+          "value": "#292827",
+          "type": "color"
+        },
+        "200": {
+          "value": "#474646",
+          "type": "color"
+        },
+        "300": {
+          "value": "#bfbfbf",
+          "type": "color"
+        },
+        "400": {
+          "value": "#cccccc",
+          "type": "color"
+        },
+        "500": {
+          "value": "#dadada",
+          "type": "color"
+        },
+        "600": {
+          "value": "#e5e5e5",
+          "type": "color"
+        },
+        "700": {
+          "value": "#f1f1f1",
+          "type": "color"
+        },
+        "800": {
+          "value": "#fafafa",
+          "type": "color"
+        },
+        "900": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "orange": {
+        "500": {
+          "value": "#edcb87",
+          "type": "color"
+        },
+        "800": {
+          "value": "#b08226",
+          "type": "color"
+        }
+      }
+    },
+    "font-family": {
+      "inter": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "national2": {
+        "value": "National 2",
+        "type": "fontFamilies"
+      },
+      "open-sans": {
+        "value": "Open Sans",
+        "type": "fontFamilies"
+      }
+    }
+  },
+  "02_semantic": {
+    "semantic": {
+      "color": {
+        "canvas": {
+          "bg": {
+            "value": "{colors.gray.800}",
+            "type": "color"
+          }
+        },
+        "button": {
+          "default": {
+            "bg": {
+              "value": "{colors.gray.100}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{colors.gray.900}",
+              "type": "color"
+            }
+          }
+        },
+        "logo": {
+          "default": {
+            "fg": {
+              "value": "{semantic.color.brand.default}",
+              "type": "color"
+            }
+          }
+        },
+        "brand": {
+          "default": {
+            "value": "{colors.gray.100}",
+            "type": "color"
+          }
+        }
+      },
+      "border-radius": {
+        "button": {
+          "value": "4px",
+          "type": "borderRadius"
+        }
+      },
+      "font-family": {
+        "button": {
+          "value": "{font-family.inter}",
+          "type": "fontFamilies"
+        }
+      }
+    }
+  },
+  "03_component/button": {
+    "border-radius": {
+      "button": {
+        "value": "{semantic.border-radius.button}",
+        "type": "borderRadius"
+      }
+    },
+    "color": {
+      "button": {
+        "bg": {
+          "value": "{semantic.color.button.default.bg}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{semantic.color.button.default.fg}",
+          "type": "color"
+        }
+      }
+    },
+    "font-family": {
+      "button": {
+        "value": "{semantic.font-family.button}",
+        "type": "fontFamilies"
+      }
+    }
+  },
+  "03_component/canvas": {
+    "color": {
+      "canvas": {
+        "bg": {
+          "value": "{semantic.color.canvas.bg}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "03_component/logo": {
+    "color": {
+      "fg": {
+        "value": "{semantic.color.logo.default.fg}",
+        "type": "color"
+      }
+    }
+  },
+  "04_theme/Playfull-Dark": {
+    "semantic": {
+      "color": {
+        "canvas": {
+          "bg": {
+            "value": "{colors.gray.100}",
+            "type": "color"
+          }
+        },
+        "button": {
+          "default": {
+            "bg": {
+              "value": "{colors.gray.900}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{colors.gray.100}",
+              "type": "color"
+            }
+          }
+        },
+        "logo": {
+          "default": {
+            "fg": {
+              "value": "{colors.gray.900}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "04_theme/Playfull": {
+    "semantic": {
+      "border-radius": {
+        "button": {
+          "value": "9999px",
+          "type": "borderRadius"
+        }
+      },
+      "font-family": {
+        "button": {
+          "value": "{font-family.national2}",
+          "type": "fontFamilies"
+        }
+      }
+    }
+  },
+  "04_theme/Serious-Dark": {
+    "semantic": {
+      "color": {
+        "canvas": {
+          "bg": {
+            "value": "{colors.gray.100}",
+            "type": "color"
+          }
+        },
+        "button": {
+          "default": {
+            "bg": {
+              "value": "{colors.gray.900}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{colors.gray.100}",
+              "type": "color"
+            }
+          }
+        },
+        "logo": {
+          "default": {
+            "fg": {
+              "value": "{colors.gray.900}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "04_theme/Serious": {
+    "semantic": {
+      "border-radius": {
+        "button": {
+          "value": "0px",
+          "type": "borderRadius"
+        }
+      },
+      "font-family": {
+        "button": {
+          "value": "{font-family.open-sans}",
+          "type": "fontFamilies"
+        }
+      }
+    }
+  },
+  "05_brand/A-Dark": {
+    "semantic": {
+      "color": {
+        "logo": {
+          "default": {
+            "fg": {
+              "value": "{colors.orange.500}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "05_brand/A": {
+    "semantic": {
+      "color": {
+        "logo": {
+          "default": {
+            "fg": {
+              "value": "{colors.orange.800}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "d200d9ce7057ab5082d6c46b5fa94f3ca8bc3423",
+      "name": "Brand A - Darkmode",
+      "selectedTokenSets": {
+        "01_core": "enabled",
+        "02_semantic": "enabled",
+        "03_component/button": "enabled",
+        "03_component/canvas": "enabled",
+        "03_component/logo": "enabled",
+        "04_theme/Playfull-Dark": "enabled",
+        "04_theme/Playfull": "enabled",
+        "04_theme/Serious-Dark": "disabled",
+        "04_theme/Serious": "disabled",
+        "05_brand/A-Dark": "disabled",
+        "05_brand/A": "enabled"
+      },
+      "$figmaStyleReferences": {}
+    }
+  ]
+}

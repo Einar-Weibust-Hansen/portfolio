@@ -4,11 +4,14 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 17 Jun 2022 13:24:47 GMT
+// Generated on Wed, 22 Jun 2022 12:10:53 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryColor {
-    public static let canvas = UIColor(red: 0.000, green: 0.090, blue: 1.000, alpha: 1)
+    public static let buttonBg = UIColor(red: 0.161, green: 0.157, blue: 0.153, alpha: 1)
+    public static let buttonText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
+    public static let canvasBg = UIColor(red: 0.980, green: 0.980, blue: 0.980, alpha: 1)
+    public static let fg = UIColor(red: 0.161, green: 0.157, blue: 0.153, alpha: 1)
 }

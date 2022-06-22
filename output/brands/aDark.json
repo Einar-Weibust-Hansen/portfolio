@@ -4,7 +4,7 @@
       "logo": {
         "default": {
           "fg": {
-            "value": "{colors.orange.800}",
+            "value": "#edcb87",
             "type": "color"
           }
         }

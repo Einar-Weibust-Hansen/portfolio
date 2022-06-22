@@ -1,31 +1,35 @@
 {
   "semantic": {
     "color": {
-      "bg": {
-        "canvas": {
-          "value": "{colors.green.gray.800}",
+      "canvas": {
+        "bg": {
+          "value": "#fafafa",
           "type": "color"
         }
       },
       "button": {
         "default": {
           "bg": {
-            "value": "{colors.green.gray.100}",
+            "value": "#292827",
             "type": "color"
           },
           "fg": {
-            "value": "{colors.green.gray.900}",
+            "value": "#ffffff",
+            "type": "color"
+          }
+        }
+      },
+      "logo": {
+        "default": {
+          "fg": {
+            "value": "#292827",
             "type": "color"
           }
         }
       },
       "brand": {
         "default": {
-          "value": "{colors.green.gray.500}",
-          "type": "color"
-        },
-        "dark": {
-          "value": "{colors.green.gray.100}",
+          "value": "#292827",
           "type": "color"
         }
       }
@@ -34,6 +38,12 @@
       "button": {
         "value": "4px",
         "type": "borderRadius"
+      }
+    },
+    "font-family": {
+      "button": {
+        "value": "Inter",
+        "type": "fontFamilies"
       }
     }
   }
